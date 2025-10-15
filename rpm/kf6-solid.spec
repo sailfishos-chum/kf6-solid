@@ -18,8 +18,7 @@ BuildRequires: bison
 
 BuildRequires: pkgconfig(mount)
 BuildRequires: pkgconfig(udev)
-
-
+BuildRequires: pkgconfig(udisks2)
 
 BuildRequires: kf6-rpm-macros
 BuildRequires: kf6-extra-cmake-modules >= %{kf_version}
