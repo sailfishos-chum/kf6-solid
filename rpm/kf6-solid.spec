@@ -55,15 +55,16 @@ developing applications that use %{name}.
 %install
 %cmake_install
 
-#%%find_lang kservice6 --all-name
+%find_lang_kf6 solid6_qt
 
-#%%files -f kservice6.lang
-%files
+%files -f solid6_qt.lang
 %license LICENSES/*
+%{_kf6_bindir}/solid-hardware6
 %{_kf6_libdir}/libKF6Solid.so.*
-#%%{_kf6_datadir}/qlogging-categories6/*.categories
+%{_kf6_datadir}/qlogging-categories6/*.categories
+%{_kf6_datadir}/qlogging-categories6/*.renamecategories
 
 %files devel
-%{_kf6_includedir}/KSolid
+%{_kf6_includedir}/Solid
 %{_kf6_libdir}/cmake/KF6Solid
 %{_kf6_libdir}/libKF6Solid.so
