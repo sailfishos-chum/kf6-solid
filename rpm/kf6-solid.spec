@@ -1,8 +1,8 @@
-%global kf_version 6.28.0
+%global kf_version 6.24.0
 
 Name:    kf6-solid
 Summary: Desktop hardware abstraction
-Version: 6.28.0
+Version: 6.24.0
 Release: 1%{?dist}
 
 License: CC0-1.0 AND GPL-2.0-or-later AND LGPL-2.0-or-later
